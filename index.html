@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Allgemein - Co2 Tracker</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#general">Allgemein</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#table">Daten</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="col">
+            <p id="general">Unten finden Sie eine Reihe an CO2 Daten die von Unternehmen und Ländern angefallen sind,
+                Sie
+                können diese Daten filter, und sortieren.
+            </p>
+        </div>
+    </div>
+    <div class="contaner">
+        <div class="col">
+            <table class="table" id="table">
+                <thead>
+                    <tr>
+                        <th>Land / Unternehmen</th>
+                        <th>Datum Messung</th>
+                        <th>CO2 Emmisionen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Deutschland</td>
+                        <td>01/09/2023</td>
+                        <td>25000</td>
+                    </tr>
+                    <tr>
+                        <td>BMW</td>
+                        <td>06/07/2023</td>
+                        <td>14473</td>
+                    </tr>
+                    <tr>
+                        <td>Samsung</td>
+                        <td>12/05/2023</td>
+                        <td>41951</td>
+                    </tr>
+                    <tr>
+                        <td>Russland</td>
+                        <td>19/11/2023</td>
+                        <td>35515</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>11/12/2023</td>
+                        <td>36561</td>
+                    </tr>
+                    <tr>
+                        <td>BMW</td>
+                        <td>18/08/2023</td>
+                        <td>42632</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>01/01/2024</td>
+                        <td>12345</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>02/01/2024</td>
+                        <td>23456</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>03/01/2024</td>
+                        <td>34567</td>
+                    </tr>
+                    <tr>
+                        <td>Disney</td>
+                        <td>04/01/2024</td>
+                        <td>45678</td>
+                    </tr>
+                    <tr>
+                        <td>Disney</td>
+                        <td>05/01/2024</td>
+                        <td>56789</td>
+                    </tr>
+                    <tr>
+                        <td>Disney</td>
+                        <td>06/01/2024</td>
+                        <td>67890</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>07/01/2024</td>
+                        <td>78901</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>08/01/2024</td>
+                        <td>89012</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>09/01/2024</td>
+                        <td>90123</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>10/01/2024</td>
+                        <td>01234</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>11/01/2024</td>
+                        <td>12345</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>12/01/2024</td>
+                        <td>23456</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>13/01/2024</td>
+                        <td>34567</td>
+                    </tr>
+                    <tr>
+                        <td>Disney</td>
+                        <td>14/01/2024</td>
+                        <td>45678</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>15/01/2024</td>
+                        <td>56789</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>16/01/2024</td>
+                        <td>67890</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>17/01/2024</td>
+                        <td>78901</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>18/01/2024</td>
+                        <td>89012</td>
+                    </tr>
+                    <tr>
+                        <td>Disney</td>
+                        <td>19/01/2024</td>
+                        <td>90123</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>20/01/2024</td>
+                        <td>01234</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>21/01/2024</td>
+                        <td>12345</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>22/01/2024</td>
+                        <td>23456</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla</td>
+                        <td>23/01/2024</td>
+                        <td>34567</td>
+                    </tr>
+                    <tr>
+                        <td>Disney</td>
+                        <td>24/01/2024</td>
+                        <td>45678</td>
+                    </tr>
+                    <tr>
+                        <td>Google</td>
+                        <td>25/01/2024</td>
+                        <td>56789</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>26/01/2024</td>
+                        <td>67890</td>
+                    </tr>
+                    <tr>
+                        <td>Nestle</td>
+                        <td>27/01/2024</td>
+                        <td>78901</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">© 2024 Ben Coepp Publishing</p>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#general" class="nav-link px-2 text-muted">Allgemein</a></li>
+                <li class="nav-item"><a href="#table" class="nav-link px-2 text-muted">Daten</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="/js/table.js"></script>
+<script src="/js/locale.js"></script>
+
+</html>
